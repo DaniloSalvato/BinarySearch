@@ -1,25 +1,38 @@
-﻿namespace BinarySearch
+﻿using System;
+using System.Net.WebSockets;
+
+namespace BinarySearch
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] lista = { 1, 2, 3, 5, 7, 9 };
-            int numero = 7;
+            try
+            {
+                int[] lista = { 1, 2, 3, 5, 9 };
+                int numero = 7;
 
-            Array.Sort(lista);
+                Array.Sort(lista);
 
-            var indexLinear = LinearSearch(lista, numero);
-            Console.WriteLine($"Item encontrado, {indexLinear}");
+                var indexLinear = LinearSearch(lista, numero);
+                var resultLinear = lista[indexLinear];
+                Console.WriteLine($"Index: {indexLinear}, valor: {resultLinear}");
 
-            var index = BinarySearch(lista, numero);
-            Console.WriteLine($"Item encontrado, {index}");
+                var index = BinarySearch(lista, numero);
+                var resultBinary = lista[index];
+                Console.WriteLine($"Index: {index}, valor {resultBinary}");
 
-            var indexRecursive = BinarySearchRecursive(lista, numero);
-            Console.WriteLine($"Item encontrado, {indexRecursive}");
+                var indexRecursive = BinarySearchRecursive(lista, numero);
+                var resultRecursive = lista[indexRecursive];
+                Console.WriteLine($"Index: {indexRecursive}, Valor: {resultRecursive}");
 
-            Console.ReadKey();
-
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"O número não esta na lista: {ex.Message}");
+                Console.ReadKey();
+            }
         }
 
         private static int LinearSearch(int[] lista, int numero)
@@ -60,12 +73,12 @@
             return -1;
         }
 
-        private static int BinarySearchRecursive(int[] lista, int numero) 
+        private static int BinarySearchRecursive(int[] lista, int numero)
         {
             return BinarySearchRecursive(lista, 0, lista.Length - 1, numero);
         }
 
-        private static int BinarySearchRecursive(int[] lista,int esquerda, int direita, int numero)
+        private static int BinarySearchRecursive(int[] lista, int esquerda, int direita, int numero)
         {
             if (direita >= esquerda)
             {
