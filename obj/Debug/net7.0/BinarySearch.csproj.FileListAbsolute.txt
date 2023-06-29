@@ -1,0 +1,15 @@
+E:\Git Hub Pessoal\BinarySearch\bin\Debug\net7.0\BinarySearch.exe
+E:\Git Hub Pessoal\BinarySearch\bin\Debug\net7.0\BinarySearch.deps.json
+E:\Git Hub Pessoal\BinarySearch\bin\Debug\net7.0\BinarySearch.runtimeconfig.json
+E:\Git Hub Pessoal\BinarySearch\bin\Debug\net7.0\BinarySearch.dll
+E:\Git Hub Pessoal\BinarySearch\bin\Debug\net7.0\BinarySearch.pdb
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.csproj.AssemblyReference.cache
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.AssemblyInfoInputs.cache
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.AssemblyInfo.cs
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.csproj.CoreCompileInputs.cache
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.dll
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\refint\BinarySearch.dll
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.pdb
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\BinarySearch.genruntimeconfig.cache
+E:\Git Hub Pessoal\BinarySearch\obj\Debug\net7.0\ref\BinarySearch.dll
